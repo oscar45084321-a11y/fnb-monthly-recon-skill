@@ -1,2 +1,41 @@
-# fnb-monthly-recon-skill
-Copilot skill for monthly reconciliation and restaurant closing workflow
+# fnb-monthly-recon
+
+这是一个面向小型餐饮门店的月结三线对账 Copilot Skill，适用于：
+
+- POS 交易核对
+- 支付通道与银行流水比对
+- 团购平台核销对账
+- 差异排查
+- 成本与利润核算
+- 月结报告生成
+
+## 目录结构
+
+```text
+.
+├── README.md
+└── skills/
+    └── fnb-monthly-recon/
+        └── SKILL.md
+```
+
+## 使用方式
+
+该 Skill 适用于以下场景：
+- 月结对账
+- 三线对账
+- POS 提单核对
+- 团购核销差异
+- 月度财务结算
+- 利润分配建议
+
+## 注意
+
+请在使用前确认：
+- 对账日期范围一致
+- POS、支付通道、团购平台都使用统一口径
+- 特殊情况如退款、跨日入账需要单独说明
+
+## License
+
+MIT
